@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: #d2b48c;
+  height: 140px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background-color: sienna;
+  height: 50px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.web-1 {
+  height: 400px;
+}
+
+.titulo {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.conteúdo {
+  display: flex;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  height: fit-content;
+  background-color: chocolate;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
