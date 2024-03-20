@@ -31,7 +31,13 @@ nav {
   font-size: 40px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
 .conteúdo {
   display: flex;
   font-size: large;
